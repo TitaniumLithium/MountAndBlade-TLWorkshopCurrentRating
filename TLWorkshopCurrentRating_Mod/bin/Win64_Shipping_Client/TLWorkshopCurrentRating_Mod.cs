@@ -136,7 +136,7 @@ namespace TLWorkshopCurrentRating_Mod
                     }
                     Profit += Outputs_profit - Inputs_cost;
                 }
-                //don't kown how to handle dynamic eco
+                //don't know how to handle dynamic eco
                 //不知道如何处理动态经济问题
                 float economyeffect = 1f;
                 Profit = (int) Profit * economyeffect;
