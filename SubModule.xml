@@ -1,0 +1,26 @@
+<Module>
+    <Name value="TL's Workshop Current Rating Mod"/>
+    <Id value="TLWorkshopCurrentRating_Mod"/>
+    <Version value="v1.1.2"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="CustomBattle"/>
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="TLWorkshopCurrentRating_Mod"/>
+            <DLLName value="TLWorkshopCurrentRating_Mod.dll"/>
+            <SubModuleClassType value="TLWorkshopCurrentRating_Mod.TLWorkshopCurrentRating_Mod"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls/>
+</Module>
